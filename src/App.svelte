@@ -1097,7 +1097,7 @@
     The ICU Burden Calculator is an adaptation of the original <a href="https://gabgoh.github.io/COVID/index.html">Epidemic Calculator</a> by Gabe Goh et al. The focus have been on adding functionality that supports straightforward assessment of demand for ICU beds without losing the integrity of the underlying model.
   </div>
   <div class="center">
-    The disease progression model that Epidemic Calculator use has some gotchas, for example the y-axis scales dynamically, which might be confusing first. Due to the underlying disease progression model, hospitalization and ICU rates are independent of fatalities. 
+    GOTCHAS: You must be very careful with the way you set hospitalization rate. It must be set so that it is a fraction of all infected, and not a fraction of those tested positive. The y-axis scales dynamically, which might be confusing first. Due to the underlying disease progression model, hospitalization and ICU rates are independent of fatalities.
   </div>
 </div>
 
